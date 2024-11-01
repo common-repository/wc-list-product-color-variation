@@ -1,0 +1,158 @@
+
+#wc_color_list_product_variation{
+	width: 100%;
+  	column-count: 2;
+  	column-gap: 0;
+}
+
+.color-object{
+	margin-bottom: 5px;
+}
+
+
+#wc_color_list_product_variation .one-color-object{
+  display: inline-block;
+  padding: 0;
+  width: 98%;
+  margin: 1%;
+
+}
+
+#wc_color_list_product_variation td{
+	border: none;
+	font-weight: normal;
+    width: 100%;
+    text-align: left;
+    background: transparent;
+}
+
+
+.variable-color-text {
+	margin: 8px;
+}
+
+.total-price{
+	line-height: 0 !important;
+	margin-bottom: 50px;
+}
+
+
+.small-color-quantity{	
+    width: 15%;
+    display: inline-block;
+    margin-top: 5px;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 2%;
+    text-align: center;
+
+}
+
+.small-color-quantity:nth-of-type(6n) {
+    margin-right: 0;
+}
+
+.small-qty-box{
+	width: 100%;
+}
+
+.small-input-quantity-field{
+	width: 15%;
+	float: left;
+	margin: 5px;
+	text-align: center;
+	position: relative;
+}
+
+@media screen and (max-width: 712px) and (min-width: 400px) {
+
+	#wc_color_list_product_variation .one-color-object{
+		width: 100% !important;
+	}
+
+}
+
+@media screen and (max-width: 400px) and (min-width: 330px) {
+		#wc_color_list_product_variation{
+			width: 100%;
+		  	column-count: 1;
+		  	column-gap: 0;
+		}
+
+}
+
+@media screen and (max-width: 330px) and (min-width: 250px) {
+		#wc_color_list_product_variation{
+			width: 100%;
+		  	column-count: 1;
+		  	column-gap: 0;
+		}
+
+}
+
+.hover-controller {
+	display: none;
+	background: inherit;
+	position: inherit;
+	text-align: left;
+
+
+}
+.small-color-quantity:hover .hover-controller {
+	position: absolute;
+	margin-top: 0;
+	display: inline-block;
+	width: 150px;
+	z-index: 99;
+	text-align: left;
+	padding-left: 10px;
+	background-size: cover;
+}
+
+#white_text .attrkey{
+	color: white !important;
+	padding: 2px;
+}
+
+#gray_text .attrkey {
+	color: #555 !important;
+	padding: 2px;
+}
+
+#white_text .attrname{
+	color: white !important;
+	padding: 2px;
+}
+
+#gray_text .attrname {
+	color: #555 !important;
+	padding: 2px;
+}
+
+
+.add-to-cart-button{
+	width: 100%;
+	display: inline-block;
+}
+
+.product.has-default-attributes.has-children>.images {
+     opacity: 1; 
+}
+
+.quantity input{
+	float: right;
+    margin-right: 10%;
+    position: relative;
+  	top: 50%;
+}
+
+.wc-color-list-qty  tr, td {
+  	vertical-align: middle !important;
+}
+
+.clearfix{
+	display: block;
+	clear: both;
+}
+
+
